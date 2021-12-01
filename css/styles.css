@@ -23,7 +23,7 @@ body:before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: center/30px no-repeat url(../img/preloader.gif) transparent;    
+    background: center/2rem no-repeat url(../img/preloader.gif) transparent;    
 }
 
 .container {
@@ -33,14 +33,14 @@ body:before {
     grid-template-columns: 1fr;    
     width: fit-content;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .item {
     display: grid;
     grid-template-rows: min-content 1fr min-content min-content;
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 1rem;
+    padding: 1rem;
     background-color: white;
     box-sizing: border-box;
 }
@@ -55,7 +55,7 @@ body:before {
 
 .location,
 .job {
-    padding: 0 0 15px 0;
+    padding: 0 0 1rem 0;
     color: black;
 }
 
@@ -72,12 +72,12 @@ body:before {
 }
 
 .item-cta {
-    margin-top: 15px;
+    margin-top: 1rem;
     background-color: #0a8af0;
-    border-radius: 15px;
+    border-radius: 1rem;
     font: 300 0.65rem/1 Arial;
     color: white;
-    padding: 15px;
+    padding: 1rem;
     border: none;
     width: 100%;
     text-transform: uppercase;
@@ -93,7 +93,7 @@ body:before {
         grid-template-columns: repeat(3, 1fr);
         width: fit-content;
         margin: 0 auto;
-        padding-top: 50px;
+        padding-top: 3.5rem;
         row-gap: 3rem;
     }   
 }
